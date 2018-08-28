@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* added MonkeyUser
 * Update for new LookingForGroup site format (#123)
 * Update for ElGoonishShive and ElGoonishShiveNP (#122)
 * Fix (and simplify) GoComics expressions (fixes #117)
@@ -59,4 +60,3 @@ CHANGES
 * Minor cleanups for new modules (see #84)
 * Add support for SurvivingTheWorld and TumbleDryComics (#84)
 * Fix a bunch of modules
-* [travis] Switch to newer base system
