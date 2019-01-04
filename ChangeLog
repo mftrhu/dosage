@@ -1,6 +1,9 @@
 CHANGES
 =======
 
+* Fix coverage collection in tox
+* Remove pytest-xdist in CI builds
+* Add CI build for Python 3.7
 * added MonkeyUser
 * Update for new LookingForGroup site format (#123)
 * Update for ElGoonishShive and ElGoonishShiveNP (#122)
@@ -57,6 +60,3 @@ CHANGES
 * Fix some SmackJeeves comics
 * Favour the first image we found when we're not expecting multiple images
 * Preserve the order we found images in when removing duplicate images
-* Minor cleanups for new modules (see #84)
-* Add support for SurvivingTheWorld and TumbleDryComics (#84)
-* Fix a bunch of modules
