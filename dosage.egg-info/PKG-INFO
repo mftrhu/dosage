@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dosage
-Version: 0.0.1.dev65
+Version: 0.0.1.dev64
 Summary: a comic strip downloader and archiver
 Home-page: http://dosage.rocks/
 Maintainer: Tobias Gruetzmacher
@@ -33,7 +33,7 @@ Description: # Dosage
         sure no content is accessed in an automatic way without consent by the
         publishers.
         
-        In any case you should support the authors of the comics you are downloading,
+        In any case, you should support the authors of the comics you are downloading,
         either by buying some of their products or even donating them some money since
         they provide the comics you like and read.
         
@@ -83,7 +83,7 @@ Description: # Dosage
         - requests
         - six
         
-        For certain modules you need th `cssselect` module, for bash argument
+        For certain modules, you need the `cssselect` module, for bash argument
         completion you need the `argcomplete` module.
         
         ## Installation
@@ -142,7 +142,7 @@ Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Operating System :: OS Independent
 Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
-Provides-Extra: dimensions
 Provides-Extra: test
-Provides-Extra: css
 Provides-Extra: bash
+Provides-Extra: dimensions
+Provides-Extra: css

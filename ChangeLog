@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* minor spelling and grammar errors (#126)
 * Repair loader for PyInstaller 3.4
 * Fix coverage collection in tox
 * Remove pytest-xdist in CI builds
@@ -57,5 +58,3 @@ CHANGES
 * Keep track of the order of images for multi-image strips in the JSON output
 * Some minor style fixes
 * Fix some more modules
-* Remove some broken comics from ComicFury module
-* Favour the first image we found when we're not expecting multiple images
