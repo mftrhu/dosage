@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Repair loader for PyInstaller 3.4
 * Fix coverage collection in tox
 * Remove pytest-xdist in CI builds
 * Add CI build for Python 3.7
@@ -57,6 +58,4 @@ CHANGES
 * Some minor style fixes
 * Fix some more modules
 * Remove some broken comics from ComicFury module
-* Fix some SmackJeeves comics
 * Favour the first image we found when we're not expecting multiple images
-* Preserve the order we found images in when removing duplicate images
