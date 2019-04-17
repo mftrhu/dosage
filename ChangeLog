@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Added support for Tripping Over You comic (#130)
 * minor spelling and grammar errors (#126)
 * Repair loader for PyInstaller 3.4
 * Fix coverage collection in tox
@@ -55,6 +56,4 @@ CHANGES
 * Update GoComics module
 * Fix another set of modules (e, k)
 * Obey the ordering of multi image strips given in the JSON
-* Keep track of the order of images for multi-image strips in the JSON output
 * Some minor style fixes
-* Fix some more modules
