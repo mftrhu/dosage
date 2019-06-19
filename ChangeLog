@@ -1,6 +1,10 @@
 CHANGES
 =======
 
+* [travis] Remove files which confuse staticsite
+* Remove pbr from runtime
+* Fix multiple imgs for json flag & ZenPencils bouncer (#133)
+* Restore manual changelog
 * Added support for Tripping Over You comic (#130)
 * minor spelling and grammar errors (#126)
 * Repair loader for PyInstaller 3.4
@@ -53,7 +57,3 @@ CHANGES
 * Unify more WordPress-based modules
 * Random module fixes
 * Bugfix: StandardError does not exist in Python 3
-* Update GoComics module
-* Fix another set of modules (e, k)
-* Obey the ordering of multi image strips given in the JSON
-* Some minor style fixes
