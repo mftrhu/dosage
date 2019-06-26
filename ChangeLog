@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Fix Girls with Slingshots matchers (#136)
 * [travis] Remove files which confuse staticsite
 * Remove pbr from runtime
 * Fix multiple imgs for json flag & ZenPencils bouncer (#133)
@@ -56,4 +57,3 @@ CHANGES
 * Switch test to a comic without robots.txt block
 * Unify more WordPress-based modules
 * Random module fixes
-* Bugfix: StandardError does not exist in Python 3
