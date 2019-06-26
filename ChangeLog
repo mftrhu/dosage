@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Fix Gunnerkrigg Court prevSearch matcher (#135)
 * Fix Girls with Slingshots matchers (#136)
 * [travis] Remove files which confuse staticsite
 * Remove pbr from runtime
@@ -56,4 +57,3 @@ CHANGES
 * Fixing the Menagea3 plugin (#91)
 * Switch test to a comic without robots.txt block
 * Unify more WordPress-based modules
-* Random module fixes
