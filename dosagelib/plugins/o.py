@@ -49,6 +49,25 @@ class Oglaf(_ParserScraper):
         return urls
 
 
+class OhHumanStar(_BasicScraper):
+    # Oh [sic] Human Star webcomic downloader -- mftrhu
+    # Hopefully, this will work/not throw silly errors for all strips
+    # Is there a more general Wordpress (ComicPress) scraper, though?
+    url = 'http://ohumanstar.com/'
+    stripUrl = url + "comic/%s/"
+    imageSearch = compile(
+        tagre("div", "id", r"comic") +
+        "\s*.*\s*" +
+        tagre("img", "src",
+            r'(http://ohumanstar\.com/wordpress/wp-content/uploads/[^"]+)')
+    )
+    prevSearch = compile(tagre("a", "href", r'([^"]+)', after="navi-prev"))
+    # Why, oh why is this program using regexes to find shit inside of an
+    # HTML tree?  Y u no BeautifulSoup or lxml or even a hand-written SAX
+    # parser, Dosage?
+    help = "Index format: chapter-n-page-n"
+
+
 class OhJoySexToy(_WPNavi):
     url = 'http://www.ohjoysextoy.com/'
     firstStripUrl = url + 'introduction/'
