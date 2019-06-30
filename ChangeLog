@@ -1,6 +1,7 @@
 CHANGES
 =======
 
+* Add new namer "joinPathPartsNamer"
 * Ignore flake8 warning W504
 * New comic: The Rock Cocks (#138)
 * Fix Gunnerkrigg Court prevSearch matcher (#135)
@@ -54,6 +55,4 @@ CHANGES
 * Move test dependencies into setup.cfg
 * realised we have a scraper for CMS MenageA3 uses
 * redoing MenageA3 with ParserScraper (previous search regex was broken)
-* added Deathbulge
 * add a comic plugin for CommitStrip
-* Fixing the Menagea3 plugin (#91)
